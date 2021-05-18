@@ -1,0 +1,273 @@
+{
+	"info": {
+		"_postman_id": "649bafbe-4aa6-4c4e-b8c1-ed109a5cf349",
+		"name": "Nivell1Fase3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Response_Environmet_local",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"console.log(\"HELLO WORLD\");",
+							"",
+							"console.log(\"Hello \"+pm.globals.get(\"nomPath\"));",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://c2a8bc7b-273e-4137-9ac5-a0e069677bf1.mock.pstmn.io/{{IP}}:{{port}}/",
+					"protocol": "https",
+					"host": [
+						"c2a8bc7b-273e-4137-9ac5-a0e069677bf1",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"{{IP}}:{{port}}",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Response_Environmet_local",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "https://c2a8bc7b-273e-4137-9ac5-a0e069677bf1.mock.pstmn.io/{{IP}}:{{port}}/",
+							"protocol": "https",
+							"host": [
+								"c2a8bc7b-273e-4137-9ac5-a0e069677bf1",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"{{IP}}:{{port}}",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 16 May 2021 01:50:38 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=466d935cbb4e549c"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=e8570c65998791d1"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "120"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "118"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1621129867"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a4-7hO0T/XLq3TuFViTu2ZVQQdIY+A\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Response_Environmet_desenvolupament",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"console.log(\"HELLO WORLD\");",
+							"",
+							"console.log(\"Hello \"+pm.globals.get(\"nomPath\"));",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://c2a8bc7b-273e-4137-9ac5-a0e069677bf1.mock.pstmn.io/{{IP}}/",
+					"protocol": "https",
+					"host": [
+						"c2a8bc7b-273e-4137-9ac5-a0e069677bf1",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"{{IP}}",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Response_Environmet_preproduccio",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"console.log(\"HELLO WORLD\");",
+							"",
+							"console.log(\"Hello \"+pm.globals.get(\"nomPath\"));",
+							"",
+							"",
+							"",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://c2a8bc7b-273e-4137-9ac5-a0e069677bf1.mock.pstmn.io/{{IP}}/",
+					"protocol": "https",
+					"host": [
+						"c2a8bc7b-273e-4137-9ac5-a0e069677bf1",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"{{IP}}",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:3000",
+			"type": "string"
+		}
+	]
+}
